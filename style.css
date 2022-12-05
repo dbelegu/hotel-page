@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: white;
+}
+
+.container {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(./images/bg-3.jpg);
+    background-size: cover;
+    background-position: 0px; 
+}
+
+li, a, button {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar {
+    background: linear-gradient(rgba(0,0,0,0.4) 30%, rgba(0,0,0,0));
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo {
+    margin-right: auto;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 26px;
+    color: white;
+    text-decoration: none;
+}
+
+.logo span {
+    color: #d39000;
+    font-weight: 700;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover{
+    color: #d39000;
+}
+
+button {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0,136,169,0.8);
+}
+
+.landing-text {
+    
+    margin-top: 200px;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+}
+
+.landing-text h1 {
+    font-size: 50px;
+}
+
+.landing-text h1, h2 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.landing-text button {
+    transition-duration: 0.4s;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #d39000;
+    border-radius: 0px;
+    font-size: 20px;
+    background: rgba(0,0,0,0);
+}
+
+.landing-text button:hover {
+    background-color: #d39000;
+    color: black;
+}
